@@ -49,7 +49,7 @@ docker build -t pdf-user .
 docker run -p 8084:8083 --env-file ../.env pdf-user
 
 ## Folder Structure
-
+```
 interactive-pdf-assistant/
 ├── ADMIN/
 │   ├── admin.py           # PDF upload, chunking, and vector store creation
@@ -64,3 +64,5 @@ interactive-pdf-assistant/
 ├── README.md              # Project documentation
 ├── .gitignore             # Files/folders to exclude from Git
 └── .env.example           # Environment variable template
+
+```
